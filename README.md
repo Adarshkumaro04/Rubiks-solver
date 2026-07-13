@@ -65,6 +65,16 @@ L3 U1 B1 R2 F3 L1 F3 U2 L1 U3 B3 U2 B1 L2 F1 U2 R2 L2 B2 (19f)
 - Scanning a real cube's colors with a webcam instead of typing the string manually
 - Comparing this against a truly optimal solver to see the speed vs. move-count tradeoff
 
+## Demo output
+
+Running the demo cube shows the scrambled state as a cube net, then solves it and 
+prints each move translated into plain English (e.g. "L3 → Turn Left face 90° 
+counter-clockwise"), along with the actual solve time.
+
+Example run:
+- Solved in 0.042 seconds
+- 19 moves total
+
 ## Credit
 
 Solving algorithm by [Herbert Kociemba](https://github.com/hkociemba/RubiksCube-TwophaseSolver). 
