@@ -54,3 +54,18 @@ a demo scramble.
 ## Example
 
 Input:
+DUUBULDBFRBFRRULLLBRDFFFBLURDBFDFDRFRULBLUFDURRBLBDUDL
+
+Output:
+L3 U1 B1 R2 F3 L1 F3 U2 L1 U3 B3 U2 B1 L2 F1 U2 R2 L2 B2 (19f)
+
+## Things I'd add if I had more time
+
+- A visual animation of the moves instead of just text
+- Scanning a real cube's colors with a webcam instead of typing the string manually
+- Comparing this against a truly optimal solver to see the speed vs. move-count tradeoff
+
+## Credit
+
+Solving algorithm by [Herbert Kociemba](https://github.com/hkociemba/RubiksCube-TwophaseSolver). 
+I built the CLI wrapper around his `RubikTwoPhase` package.
